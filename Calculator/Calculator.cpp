@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Welcome to the Calulator App\n";
+	cout << "Welcome to the Calulator App" << endl;
 	int x;
 	int y;
 	char z;
