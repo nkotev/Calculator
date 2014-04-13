@@ -1,7 +1,10 @@
 // Calculator.cpp : Defines the entry point for the console application.
 //
 
+#if !__APPLE__
 #include "stdafx.h"
+#endif
+
 #include <iostream>
 
 using namespace std;
@@ -21,7 +24,7 @@ int main()
 		cin >> x;
 		cout << " Enter another integer: ";
 		cin >> y;
-		cout << "Enter a charecter";
+		cout << "Enter a charecter: ";
 		cin >> z; 
 
 		if (z == '+')
