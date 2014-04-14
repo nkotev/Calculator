@@ -15,10 +15,14 @@ int main()
 	int result;		// To hold the result
 
 	int quit = 0;
-	while (!quit)
-	{
+	
+	
 		cout << "Enter a integer: ";
 		cin >> x;
+
+		while (x != 0)
+		{
+		
 		cout << "Enter another integer: ";
 		cin >> y;
 		cout << "Enter a charecter: ";
@@ -44,7 +48,7 @@ int main()
 			result = x - y;
 			cout << result << endl;
 		}
-	}
+		}
 	return 0;
 }
 
