@@ -12,22 +12,37 @@ int main()
 	int x;
 	int y;
 	char z;
+	int result;		// To hold the result
 
 	int quit = 0;
 	while (!quit)
 	{
-		cout << "*";
 		cout << "Enter a integer: ";
 		cin >> x;
-		cout << " Enter another integer: ";
+		cout << "Enter another integer: ";
 		cin >> y;
 		cout << "Enter a charecter: ";
 		cin >> z; 
 
 		if (z == '+')
 		{
-			int result = x + y;
-			cout << result;
+			result = x + y;
+			cout << result << endl;
+		}
+		else if (z == '*')
+		{
+			result = x * y;
+			cout << result << endl;
+		}
+		else if(z == '/')
+		{
+			result = x / z;
+			cout << result << endl;
+		}
+		else if (z == '-')
+		{
+			result = x - y;
+			cout << result << endl;
 		}
 	}
 	return 0;
